@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nyan Aung's Personal Portfolio</title>
+  <link href="home.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <span class="page-title">
+      <h1><code>Nyan Aung's <br>Personal Portfolio</code></h1>
+    </span>
+
+    <picture class="my-picture">
+      <figure>
+        <source media="(max-width:650px)" srcset="my-image-smaller.png">
+        <img src="my-image.png" alt="My Image">
+        <figcaption>My Picture</figcaption>
+      </figure>
+    </picture>
+  
+    <section class="bio">
+      <aside>
+        <h2><i>Welcome!</i></h2>
+      </aside>
+      <h3><em>A Little About Myself</em></h3>
+      <hr>
+      <p>I am currently a fourth year <strong>computer engineering</strong> major at <b>UCSD</b> and I am very excited to start learning more about frontend engineering.</p>
+      <hr>
+    </section>
+
+    <section class="contacts">
+      <address>
+        <h2>Contact Me</h2>
+        <ol>
+          <li><h3>Email: <a href="naung@ucsd.edu">naung@ucsd.edu</a></h3></li>
+        </ol>
+      </address>
+    </section>
+
+    <section class="Projects">
+      <table>
+        <caption><h2>Projects</h2></caption>
+        <colgroup>
+          <col span="1" style="border-color: red;">
+        </colgroup>
+        <tr>
+          <th><a href="project1.html">Project 1</a></th>
+          <th><a href="project2.html">Project 2</a></th>
+          <th><a href="project3.html">Project 3</a></th>
+        </tr>
+        <tr>
+          <td>Brief explanation about project 1 <iframe src="project 1" title="Project 1"></iframe></td>
+          <td>Brief explanation about project 2<iframe src="project 2" title="Project 2"></iframe></td>
+          <td>Brief explanation about project 3 <iframe src="project 3" title="Project 3"></iframe></td>
+        </tr>
+      </table>
+    </section>
+
+    <p>Check out more html tags in <a href="experiments.html">Experiments</a> Page</p>
+
+
+  </main>
+
+  <footer>
+      <p>Created by Nyan Aung</p>
+  </footer>
+
+  <style></style>
+
+  <script></script>
+</body>
+</html>

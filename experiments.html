@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="experiments.html">Experiments</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1>This page is for experimenting HTML tags</h1>
+
+  <section class="forms">
+    <form action="/submit-car-brand" method="POST">
+      <fieldset>
+          <legend><kbd>Favorite</kbd> Car Brand Survey</legend>
+  
+          <label for="carBrand">Choose your 2 favorite car brand:</label>
+          <select id="carBrand" name="carBrand">
+              <optgroup label="Luxury Brands">
+                  <option value="BMW">BMW</option>
+                  <option value="Tesla">Tesla</option>
+              </optgroup>
+          </select>
+          <select id="carBrand" name="carBrand">
+            <datalist label="Regular Brands">
+              <option value="Toyota">Toyota</option>
+              <option value="Honda">Honda</option>
+            </datalist>
+          </select>
+  
+          <br>
+          <label for="whyFavorite">Why is this your favorite brand? (optional)</label>
+          <textarea id="whyFavorite" name="whyFavorite" rows="4" cols="50"></textarea>
+  
+          <details>
+              <summary>Additional <del>Detail</del><ins>Information</ins></summary>
+              <p>Your information will be used for analytical purposes only.</p>
+          </details>
+  
+          <input type="submit" value="Submit">
+      </fieldset>
+  </form>
+  </section>
+
+  <hr>
+
+  <section class="fav-quote">
+    <section>
+      <hgroup>
+          <h1>Favorite Quote</h1>
+      </hgroup>
+      <blockquote cite="https://www.example.com/source-of-quote">
+          <p>"I'm just a Chill Guy"</p>
+      </blockquote>
+      <footer>
+          <cite>- Chill Guy</cite>
+      </footer>
+      <dl>
+          <dt><abbr title="Context">Context</abbr>:</dt>
+          <dd>This is a quote by Chill Guy.</dd>
+          <dt><dfn>Source</dfn>:</dt>
+          <dd><a href="">Chill Guy</a></dd>
+      </dl>
+      <details>
+          <summary>More about this quote</summary>
+          <p>It's a popular meme online.</p>
+      </details>
+      <dialog open>
+          <p>Do you have a favorite quote you live by?</p>
+      </dialog>
+      <hr>
+      <button>Hello!</button>
+      <p>This is just a button</p>
+      <hr>
+  </section>
+
+  <section class="audio-video">
+    <audio controls>
+      <source src="chill-guy.mp3" type="audio/mpeg">
+    </audio>
+    <video width="300" height="300" controls>
+      <source src="Chill-guy.mp4" type="video/mp4">
+    </video>
+  </section>
+
+  <canvas id="Canvas">
+
+  </canvas>
+
+  <svg width="100" height="100">
+
+  </svg>
+
+  <noscript>
+    JavaScript is not enabled. Without it some features won't work.
+  </noscript>
+
+  <search>
+    <form>
+      <input name="player" id="player" placeholder="Fav Player">
+    </form>
+  </search>
+
+  <math>
+    <mi>E</mi>
+    <mo>=</mo>
+    <mi>m</mi>
+    <msup>
+        <mi>c</mi>
+        <mn>2</mn>
+    </msup>
+</math>
+  
+</body>
+</html>
