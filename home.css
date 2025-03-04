@@ -1,5 +1,15 @@
 :root {
-   --page-color: antiquewhite;
+  --page-color: antiquewhite;
+  --text-color: black;
+  --nav-bar-color: grey;
+  --nav-text-color: white;
+}
+
+.darkmode {
+ --page-color: rgb(46, 43, 43);
+ --text-color: white;
+ --nav-bar-color: rgb(33, 37, 41);
+ --nav-text-color: white;
 }
 
 @font-face {
@@ -14,6 +24,7 @@
 
 body {
   background-color: var(--page-color);
+  color: var(--text-color);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,7 +32,8 @@ body {
 }
 
 header, footer{
-  background-color: grey;
+  background-color: var(--nav-bar-color);
+  color: var(--nav-text-color);
 }
 
 footer{
@@ -44,7 +56,7 @@ footer{
 }
 
 .navbar a{
-  color: white;
+  color: var(--nav-text-color);
   text-decoration: none;
   font-size: large;
   transition: color 0.3s ease;
@@ -236,5 +248,6 @@ input:valid, textarea:valid {
     justify-items: center;
   }
 }
+
 
 
